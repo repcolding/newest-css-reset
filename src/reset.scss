@@ -1,0 +1,41 @@
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+
+  &:not(html, head, audio, svg *) {
+    all: unset;
+    display: revert;
+  }
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+textarea,
+section,
+button {
+  display: block;
+}
+
+img,
+svg,
+picture,
+video,
+audio,
+canvas,
+iframe {
+  display: block;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}

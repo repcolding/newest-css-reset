@@ -1,13 +1,13 @@
 * {
+  &:not(html, head, audio, svg *) {
+    all: unset;
+    display: revert;
+  }
+
   &,
   &:before,
   &:after {
     box-sizing: border-box;
-  }
-
-  &:not(html, head, audio, svg *) {
-    all: unset;
-    display: revert;
   }
 }
 

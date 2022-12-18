@@ -9,6 +9,11 @@
   &:after {
     box-sizing: border-box;
   }
+
+  &:before,
+  &:after {
+    display: block;
+  }
 }
 
 body {
@@ -38,4 +43,5 @@ img,
 picture,
 video {
   max-width: 100%;
+  height: auto;
 }

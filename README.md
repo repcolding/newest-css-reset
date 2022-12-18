@@ -4,6 +4,10 @@ Newest css reset for comfortable work,
 suitable for all evergreen browsers
 and necessary for high-quality development
 
+## Info
+
+
+
 ## Installation
 
 #### 1. Package Manager

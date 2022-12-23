@@ -1,6 +1,6 @@
 {
   "name": "@verno.digital/newest-css-reset",
-  "version": "2.6.0",
+  "version": "4.0.4",
   "description": "Modern css reset, recommended right now",
   "scripts": {
     "build": "sass ./src/reset.scss ./dist/reset.css --no-source-map && uglifycss ./dist/reset.css > ./dist/reset.min.css"

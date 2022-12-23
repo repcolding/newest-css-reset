@@ -1,6 +1,6 @@
 {
   "name": "@verno.digital/newest-css-reset",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "Modern css reset, recommended right now",
   "scripts": {
     "build": "sass ./src/reset.scss ./dist/reset.css --no-source-map && uglifycss ./dist/reset.css > ./dist/reset.min.css"
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/verno.digital/newest-css-reset"
+    "url": "git+https://github.com/repcolding/newest-css-reset"
   },
   "author": "telegramm: @repcolding; site: https://verno.digital",
   "license": "MIT",

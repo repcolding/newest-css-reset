@@ -1,6 +1,6 @@
 {
   "name": "@verno.digital/newest-css-reset",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "scripts": {
     "build": "sass ./src/reset.scss ./dist/reset.css --no-source-map && uglifycss ./dist/reset.css > ./dist/reset.min.css"
   },

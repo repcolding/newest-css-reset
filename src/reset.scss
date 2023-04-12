@@ -37,7 +37,7 @@ audio,
 canvas,
 iframe {
   display: block;
-  overflow: inherit;
+  overflow: revert;
 }
 
 img,

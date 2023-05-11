@@ -1,5 +1,5 @@
 * {
-  &:where(:not(html, head, audio, svg, svg *)) {
+  &:where(:not(html, head, audio, svg, svg *, symbol, symbol *)) {
     all: unset;
     display: revert;
   }

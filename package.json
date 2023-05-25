@@ -1,6 +1,6 @@
 {
   "name": "@verno.digital/newest-css-reset",
-  "version": "4.4.1",
+  "version": "4.4.2",
   "keywords": [
     "@verno.digital"
   ],
@@ -12,6 +12,10 @@
   "author": "telegramm: @repcolding; site: https://verno.digital",
   "type": "module",
   "main": "dist/reset.css",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "sass ./src/reset.scss ./dist/reset.css --no-source-map"
   },
